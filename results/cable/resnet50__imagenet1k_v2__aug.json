@@ -1,0 +1,3942 @@
+[
+  {
+    "augmented": true,
+    "auroc": 0.5421664167916043,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 17.363104581832886,
+    "train_time": 228.8122501373291
+  },
+  {
+    "augmented": true,
+    "auroc": 0.647488755622189,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 8.116615772247314,
+    "train_time": 107.94156646728516
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7164542728635681,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.063738584518433,
+    "train_time": 54.123148918151855
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6742878560719641,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 2.135793685913086,
+    "train_time": 28.310861110687256
+  },
+  {
+    "augmented": true,
+    "auroc": 0.54047976011994,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 37.9105498790741,
+    "train_time": 228.93582797050476
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5888305847076462,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 22.496269702911377,
+    "train_time": 108.14520597457886
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7217016491754122,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 12.178073644638062,
+    "train_time": 55.446048974990845
+  },
+  {
+    "augmented": true,
+    "auroc": 0.756184407796102,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 6.037304878234863,
+    "train_time": 29.89490842819214
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5402923538230885,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 17.482632637023926,
+    "train_time": 232.16487216949463
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6424287856071965,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 8.086857795715332,
+    "train_time": 108.32504773139954
+  },
+  {
+    "augmented": true,
+    "auroc": 0.70952023988006,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.090045928955078,
+    "train_time": 54.54482388496399
+  },
+  {
+    "augmented": true,
+    "auroc": 0.671664167916042,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 2.141890287399292,
+    "train_time": 28.475640058517456
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5449775112443778,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 18.04942512512207,
+    "train_time": 234.35255908966064
+  },
+  {
+    "augmented": true,
+    "auroc": 0.652736131934033,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 8.401986598968506,
+    "train_time": 110.07126665115356
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7261994002998501,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.141417503356934,
+    "train_time": 54.8980233669281
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6847826086956522,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 2.198410987854004,
+    "train_time": 28.763532161712646
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5477886056971514,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 18.48375630378723,
+    "train_time": 235.6742193698883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6581709145427286,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 8.746018886566162,
+    "train_time": 111.08167481422424
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7400674662668665,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.270321846008301,
+    "train_time": 55.62027311325073
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7033358320839581,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 2.337822198867798,
+    "train_time": 29.286384105682373
+  },
+  {
+    "augmented": true,
+    "auroc": 0.552848575712144,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 20.76849126815796,
+    "train_time": 246.38472294807434
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6684782608695652,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 10.210306167602539,
+    "train_time": 117.96619176864624
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7576836581709145,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.761426687240601,
+    "train_time": 57.60110020637512
+  },
+  {
+    "augmented": true,
+    "auroc": 0.731071964017991,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 3.1404361724853516,
+    "train_time": 32.8289110660553
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5609070464767616,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 29.423101663589478,
+    "train_time": 286.5909023284912
+  },
+  {
+    "augmented": true,
+    "auroc": 0.686656671664168,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 15.09521746635437,
+    "train_time": 139.61270666122437
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7848575712143928,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 6.685631275177002,
+    "train_time": 66.83822345733643
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7514992503748125,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.189661502838135,
+    "train_time": 38.006585121154785
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5785232383808095,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 33.484068155288696,
+    "train_time": 303.6982636451721
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7172038980509744,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 15.591049194335938,
+    "train_time": 142.00382089614868
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8144677661169415,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 7.961262226104736,
+    "train_time": 72.15812683105469
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7672413793103448,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.203785419464111,
+    "train_time": 38.16790437698364
+  },
+  {
+    "augmented": true,
+    "auroc": 0.62143928035982,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 33.56421780586243,
+    "train_time": 303.1769051551819
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7717391304347827,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 15.613603353500366,
+    "train_time": 142.06842041015625
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8630059970014993,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 7.9851953983306885,
+    "train_time": 72.26643228530884
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7764242878560719,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.231040954589844,
+    "train_time": 38.422956466674805
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6834707646176911,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 33.58835792541504,
+    "train_time": 302.8936002254486
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8169040479760121,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 15.556325435638428,
+    "train_time": 141.34886145591736
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8976761619190405,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 7.950700044631958,
+    "train_time": 71.9524941444397
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7723013493253372,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "cable",
+    "test_inference_time": 4.214243173599243,
+    "train_time": 38.21234846115112
+  },
+  {
+    "augmented": true,
+    "auroc": 0.47563718140929534,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.38541150093078613,
+    "train_time": 0.21375370025634766
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5151799100449775,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.7490074634552002,
+    "train_time": 0.1922001838684082
+  },
+  {
+    "augmented": true,
+    "auroc": 0.4821964017991005,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.113983154296875,
+    "train_time": 0.2055683135986328
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5352323838080959,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.4799659252166748,
+    "train_time": 0.21636009216308594
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5226761619190404,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.843252420425415,
+    "train_time": 0.22810626029968262
+  },
+  {
+    "augmented": true,
+    "auroc": 0.43965517241379315,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 2.207335948944092,
+    "train_time": 0.24129843711853027
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5582833583208395,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 2.5724778175354004,
+    "train_time": 0.2529606819152832
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5159295352323838,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 2.9401350021362305,
+    "train_time": 0.26553893089294434
+  },
+  {
+    "augmented": true,
+    "auroc": 0.49850074962518737,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 3.2957541942596436,
+    "train_time": 0.27704453468322754
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5579085457271364,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 3.665323257446289,
+    "train_time": 0.2889547348022461
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5311094452773613,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 7.310747861862183,
+    "train_time": 0.4436461925506592
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5204272863568216,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 10.963475465774536,
+    "train_time": 0.5987133979797363
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5110569715142429,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 14.60367751121521,
+    "train_time": 0.7189977169036865
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5663418290854573,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 18.25141167640686,
+    "train_time": 0.8375368118286133
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6092578710644678,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 21.910065174102783,
+    "train_time": 0.9604694843292236
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5552848575712145,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 25.555797338485718,
+    "train_time": 1.081723690032959
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5513493253373313,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 29.183667421340942,
+    "train_time": 1.2027654647827148
+  },
+  {
+    "augmented": true,
+    "auroc": 0.514055472263868,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 32.86359095573425,
+    "train_time": 1.336050033569336
+  },
+  {
+    "augmented": true,
+    "auroc": 0.4943778110944528,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 36.47513389587402,
+    "train_time": 1.446167230606079
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5112443778110944,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.19331598281860352,
+    "train_time": 0.10582542419433594
+  },
+  {
+    "augmented": true,
+    "auroc": 0.4853823088455772,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.3755784034729004,
+    "train_time": 0.10613656044006348
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5549100449775112,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.5566558837890625,
+    "train_time": 0.10713672637939453
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5138680659670165,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.7397482395172119,
+    "train_time": 0.11638426780700684
+  },
+  {
+    "augmented": true,
+    "auroc": 0.530359820089955,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.9211616516113281,
+    "train_time": 0.1259021759033203
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5314842578710645,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.1034977436065674,
+    "train_time": 0.13539481163024902
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5847076461769115,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.2872469425201416,
+    "train_time": 0.14368486404418945
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5652173913043478,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.46958589553833,
+    "train_time": 0.1524808406829834
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5387931034482758,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.651742696762085,
+    "train_time": 0.16079950332641602
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5432908545727136,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.8358774185180664,
+    "train_time": 0.1705174446105957
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5886431784107946,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 3.659144878387451,
+    "train_time": 0.2609226703643799
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5642803598200898,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 5.484628677368164,
+    "train_time": 0.351285457611084
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5755247376311844,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 7.304267406463623,
+    "train_time": 0.4399538040161133
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5888305847076462,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 9.144709825515747,
+    "train_time": 0.5303621292114258
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5399175412293853,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 10.956660985946655,
+    "train_time": 0.62001633644104
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6285607196401798,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 12.766128063201904,
+    "train_time": 0.7108297348022461
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6495502248875562,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 14.603272438049316,
+    "train_time": 0.8002972602844238
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6398050974512743,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 16.415760040283203,
+    "train_time": 0.8937883377075195
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5749625187406296,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 18.247533559799194,
+    "train_time": 0.9827375411987305
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5970764617691154,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.09874486923217773,
+    "train_time": 0.04909682273864746
+  },
+  {
+    "augmented": true,
+    "auroc": 0.4739505247376312,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.19188737869262695,
+    "train_time": 0.05603647232055664
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6384932533733134,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.28528714179992676,
+    "train_time": 0.06327295303344727
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6015742128935532,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.37832093238830566,
+    "train_time": 0.07088422775268555
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6360569715142429,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.47115612030029297,
+    "train_time": 0.0782163143157959
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5693403298350824,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.5652847290039062,
+    "train_time": 0.0859684944152832
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5509745127436281,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.658008337020874,
+    "train_time": 0.09330344200134277
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6581709145427287,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.7514960765838623,
+    "train_time": 0.10096335411071777
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5892053973013494,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.8455111980438232,
+    "train_time": 0.10867595672607422
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6450524737631184,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.9387543201446533,
+    "train_time": 0.11633706092834473
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6446776611694153,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.8696317672729492,
+    "train_time": 0.1919574737548828
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7449400299850075,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 2.8018698692321777,
+    "train_time": 0.26708197593688965
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7005247376311844,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 3.735280752182007,
+    "train_time": 0.3418467044830322
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6772863568215892,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 4.664956092834473,
+    "train_time": 0.41854286193847656
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6808470764617692,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 5.599075555801392,
+    "train_time": 0.4945507049560547
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7061469265367316,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 6.530436754226685,
+    "train_time": 0.5700476169586182
+  },
+  {
+    "augmented": true,
+    "auroc": 0.690592203898051,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 7.4629621505737305,
+    "train_time": 0.6454432010650635
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6986506746626687,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 8.391386032104492,
+    "train_time": 0.7201991081237793
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7070839580209896,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 9.320066690444946,
+    "train_time": 0.7978200912475586
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5625,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.050817251205444336,
+    "train_time": 0.028592824935913086
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6030734632683658,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.09938836097717285,
+    "train_time": 0.03467822074890137
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6383058470764618,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.1482560634613037,
+    "train_time": 0.04178285598754883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6173163418290855,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.19616985321044922,
+    "train_time": 0.04860377311706543
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5515367316341829,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.244842529296875,
+    "train_time": 0.05572390556335449
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6424287856071964,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.29268884658813477,
+    "train_time": 0.06280398368835449
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6143178410794603,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.3414473533630371,
+    "train_time": 0.0697336196899414
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6812218890554722,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.38933682441711426,
+    "train_time": 0.0767660140991211
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6073838080959519,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.4367339611053467,
+    "train_time": 0.08365011215209961
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5987631184407796,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.4854767322540283,
+    "train_time": 0.09078764915466309
+  },
+  {
+    "augmented": true,
+    "auroc": 0.668103448275862,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 0.9677143096923828,
+    "train_time": 0.16025876998901367
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6739130434782609,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.4521245956420898,
+    "train_time": 0.22978448867797852
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6384932533733133,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 1.93503737449646,
+    "train_time": 0.29962944984436035
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6296851574212894,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 2.418858766555786,
+    "train_time": 0.3704524040222168
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6814092953523239,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 2.9055094718933105,
+    "train_time": 0.44345569610595703
+  },
+  {
+    "augmented": true,
+    "auroc": 0.674287856071964,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 3.3862738609313965,
+    "train_time": 0.5125045776367188
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6755997001499251,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 3.9970383644104004,
+    "train_time": 0.5806496143341064
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6362443778110944,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 4.4762468338012695,
+    "train_time": 0.6883294582366943
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6692278860569715,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "cable",
+    "test_inference_time": 4.832590341567993,
+    "train_time": 0.7173914909362793
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5963268365817092,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 149.20761132240295,
+    "train_time": 39.33697772026062
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7220764617691154,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 68.7065441608429,
+    "train_time": 20.782890796661377
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8598200899550225,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 25.13076877593994,
+    "train_time": 9.833866357803345
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8122188905547226,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 10.470564603805542,
+    "train_time": 4.851525068283081
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0337071418762207,
+    "train_time": 39.36483120918274
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0165748596191406,
+    "train_time": 19.796838998794556
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5002825260162354,
+    "train_time": 9.816887378692627
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23138427734375,
+    "train_time": 4.853770971298218
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0340850353240967,
+    "train_time": 39.37724494934082
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.016798734664917,
+    "train_time": 19.619549036026
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5003335475921631,
+    "train_time": 9.81480884552002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23111653327941895,
+    "train_time": 4.855420827865601
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5601574212893553,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 180.86205291748047,
+    "train_time": 39.38629221916199
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5873313343328335,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 87.81469011306763,
+    "train_time": 19.595743656158447
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6877811094452774,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 39.32007884979248,
+    "train_time": 9.81834077835083
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6242503748125937,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 19.09090256690979,
+    "train_time": 4.853594541549683
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.032477855682373,
+    "train_time": 39.39428377151489
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.017333745956421,
+    "train_time": 19.61532974243164
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.4996187686920166,
+    "train_time": 9.818639278411865
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23145246505737305,
+    "train_time": 4.853436231613159
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 236.73149943351746,
+    "train_time": 39.370914459228516
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 118.1846125125885,
+    "train_time": 19.608904600143433
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 57.700305223464966,
+    "train_time": 9.81705617904663
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 26.30085825920105,
+    "train_time": 4.852383375167847
+  },
+  {
+    "augmented": true,
+    "auroc": 0.674662668665667,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 134.28633952140808,
+    "train_time": 39.35578989982605
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8026611694152922,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 59.99399185180664,
+    "train_time": 19.621331930160522
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8890554722638682,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 21.75897526741028,
+    "train_time": 9.816109418869019
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8000374812593702,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 8.569583415985107,
+    "train_time": 4.85222315788269
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0334651470184326,
+    "train_time": 39.38453722000122
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0169792175292969,
+    "train_time": 19.587838649749756
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5004358291625977,
+    "train_time": 9.818942070007324
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.2311687469482422,
+    "train_time": 4.853467226028442
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.034754991531372,
+    "train_time": 39.35191988945007
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0171501636505127,
+    "train_time": 19.60687279701233
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5002222061157227,
+    "train_time": 9.817740678787231
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.2316434383392334,
+    "train_time": 4.852693796157837
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6056971514242878,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 180.19936871528625,
+    "train_time": 39.56234359741211
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6902173913043478,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 90.09590578079224,
+    "train_time": 19.706037521362305
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6645427286356822,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 38.48270082473755,
+    "train_time": 9.862563371658325
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6113193403298351,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 16.803837060928345,
+    "train_time": 4.873700380325317
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0540335178375244,
+    "train_time": 39.57581686973572
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0273380279541016,
+    "train_time": 19.705828428268433
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5053510665893555,
+    "train_time": 9.860262632369995
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23382353782653809,
+    "train_time": 4.872000217437744
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 237.4546000957489,
+    "train_time": 39.581833600997925
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 118.50519633293152,
+    "train_time": 19.697059154510498
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 57.910998582839966,
+    "train_time": 9.865681409835815
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 26.401740550994873,
+    "train_time": 4.873964071273804
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6143178410794603,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 148.57109141349792,
+    "train_time": 39.55354595184326
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7085832083958021,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 68.1471049785614,
+    "train_time": 19.710106372833252
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8367691154422788,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 24.93718147277832,
+    "train_time": 9.85916519165039
+  },
+  {
+    "augmented": true,
+    "auroc": 0.771176911544228,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 10.497184753417969,
+    "train_time": 4.871709108352661
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.054999351501465,
+    "train_time": 39.53228831291199
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0271670818328857,
+    "train_time": 19.715789079666138
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5048604011535645,
+    "train_time": 9.859771966934204
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23433732986450195,
+    "train_time": 4.8699986934661865
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0523338317871094,
+    "train_time": 39.57414984703064
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.027531385421753,
+    "train_time": 19.722102642059326
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5047235488891602,
+    "train_time": 9.861310958862305
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23379111289978027,
+    "train_time": 4.870825529098511
+  },
+  {
+    "augmented": true,
+    "auroc": 0.646551724137931,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 185.72085285186768,
+    "train_time": 39.57527804374695
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6823463268365818,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 94.66739058494568,
+    "train_time": 19.72767949104309
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7297601199400299,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 39.65796375274658,
+    "train_time": 9.857870101928711
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7357571214392804,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 20.476799488067627,
+    "train_time": 4.870668411254883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0524706840515137,
+    "train_time": 39.566240310668945
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0273094177246094,
+    "train_time": 19.720263481140137
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5054006576538086,
+    "train_time": 9.86662220954895
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23491382598876953,
+    "train_time": 4.871553897857666
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 237.32432389259338,
+    "train_time": 39.57178473472595
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 118.62420082092285,
+    "train_time": 19.75089979171753
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 57.83640956878662,
+    "train_time": 9.859887599945068
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 26.416242361068726,
+    "train_time": 4.8679258823394775
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6028860569715143,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 147.72670912742615,
+    "train_time": 39.53243899345398
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7100824587706146,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 67.52923321723938,
+    "train_time": 19.747890949249268
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8710644677661169,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 25.604299545288086,
+    "train_time": 9.855581760406494
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7809220389805097,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 10.702454090118408,
+    "train_time": 4.816075563430786
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.0490663051605225,
+    "train_time": 39.57125425338745
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0285730361938477,
+    "train_time": 19.728754997253418
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5034050941467285,
+    "train_time": 9.86059021949768
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23476481437683105,
+    "train_time": 4.8122336864471436
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.04866099357605,
+    "train_time": 39.573718786239624
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0279185771942139,
+    "train_time": 19.71103072166443
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5032954216003418,
+    "train_time": 9.85789680480957
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23427867889404297,
+    "train_time": 4.8100972175598145
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6197526236881559,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 175.68118381500244,
+    "train_time": 39.580487966537476
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5918290854572713,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 87.60671997070312,
+    "train_time": 19.707496643066406
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6564842578710645,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 41.25491261482239,
+    "train_time": 9.855693101882935
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6829085457271364,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 20.78890895843506,
+    "train_time": 4.804695129394531
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 2.047710418701172,
+    "train_time": 39.55413365364075
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 1.0287892818450928,
+    "train_time": 19.722293615341187
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.5037887096405029,
+    "train_time": 9.862338542938232
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 0.23427891731262207,
+    "train_time": 4.806098699569702
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 237.3283953666687,
+    "train_time": 39.554505586624146
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 118.63064932823181,
+    "train_time": 19.729921340942383
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 57.868205070495605,
+    "train_time": 9.868313312530518
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1344,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "cable",
+    "test_inference_time": 26.37816858291626,
+    "train_time": 4.804495811462402
+  }
+]

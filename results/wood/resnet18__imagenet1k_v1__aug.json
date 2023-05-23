@@ -1,0 +1,5254 @@
+[
+  {
+    "augmented": true,
+    "auroc": 0.2947368421052631,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.340498208999634,
+    "train_time": 66.48747968673706
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6912280701754386,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.243391752243042,
+    "train_time": 35.457587242126465
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9324561403508772,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.539867639541626,
+    "train_time": 15.734262466430664
+  },
+  {
+    "augmented": true,
+    "auroc": 0.09385964912280702,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.24548053741455078,
+    "train_time": 7.544821262359619
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9122807017543859,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 6.237222194671631,
+    "train_time": 66.95444369316101
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9368421052631578,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 3.3316307067871094,
+    "train_time": 34.79888606071472
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9789473684210527,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.639765977859497,
+    "train_time": 15.392806053161621
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9614035087719298,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.9012548923492432,
+    "train_time": 7.6044602394104
+  },
+  {
+    "augmented": true,
+    "auroc": 0.2982456140350877,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.334484100341797,
+    "train_time": 66.97169494628906
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7026315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.2396032810211182,
+    "train_time": 35.44286346435547
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9359649122807018,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.5381436347961426,
+    "train_time": 15.668325424194336
+  },
+  {
+    "augmented": true,
+    "auroc": 0.09473684210526315,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.24318623542785645,
+    "train_time": 7.575711965560913
+  },
+  {
+    "augmented": true,
+    "auroc": 0.29298245614035084,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.36064076423645,
+    "train_time": 66.65432143211365
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6666666666666666,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.2558965682983398,
+    "train_time": 35.67181086540222
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9298245614035088,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.5443782806396484,
+    "train_time": 15.637907028198242
+  },
+  {
+    "augmented": true,
+    "auroc": 0.08859649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.24660968780517578,
+    "train_time": 7.4674952030181885
+  },
+  {
+    "augmented": true,
+    "auroc": 0.2894736842105263,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.394268274307251,
+    "train_time": 66.98882699012756
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6570175438596491,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.296119213104248,
+    "train_time": 36.23649263381958
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9254385964912281,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.5445561408996582,
+    "train_time": 15.660573244094849
+  },
+  {
+    "augmented": true,
+    "auroc": 0.08771929824561403,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.24638676643371582,
+    "train_time": 7.4429450035095215
+  },
+  {
+    "augmented": true,
+    "auroc": 0.29035087719298247,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.4628489017486572,
+    "train_time": 67.27608060836792
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6499999999999999,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.3829700946807861,
+    "train_time": 37.28626275062561
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9236842105263158,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.5434331893920898,
+    "train_time": 15.751633882522583
+  },
+  {
+    "augmented": true,
+    "auroc": 0.08859649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.23111581802368164,
+    "train_time": 7.50262188911438
+  },
+  {
+    "augmented": true,
+    "auroc": 0.2868421052631579,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.599703550338745,
+    "train_time": 68.66663956642151
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6403508771929824,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.80765700340271,
+    "train_time": 40.608182191848755
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9210526315789473,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.5559918880462646,
+    "train_time": 15.885019540786743
+  },
+  {
+    "augmented": true,
+    "auroc": 0.09035087719298246,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.23688006401062012,
+    "train_time": 7.517301559448242
+  },
+  {
+    "augmented": true,
+    "auroc": 0.2850877192982456,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 3.298365354537964,
+    "train_time": 75.2208342552185
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6429824561403509,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.4037086963653564,
+    "train_time": 45.86248445510864
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9184210526315789,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.6021761894226074,
+    "train_time": 16.280431270599365
+  },
+  {
+    "augmented": true,
+    "auroc": 0.09561403508771929,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.25606536865234375,
+    "train_time": 7.646345615386963
+  },
+  {
+    "augmented": true,
+    "auroc": 0.2912280701754386,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 4.516441106796265,
+    "train_time": 86.52352786064148
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6429824561403509,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.44041109085083,
+    "train_time": 46.16702961921692
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9105263157894737,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.8023028373718262,
+    "train_time": 17.95759892463684
+  },
+  {
+    "augmented": true,
+    "auroc": 0.09736842105263158,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.310990571975708,
+    "train_time": 7.911298513412476
+  },
+  {
+    "augmented": true,
+    "auroc": 0.29210526315789476,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 4.624634742736816,
+    "train_time": 87.35583329200745
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6464912280701754,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 2.4448623657226562,
+    "train_time": 46.17156529426575
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9035087719298245,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 1.025881290435791,
+    "train_time": 19.996967315673828
+  },
+  {
+    "augmented": true,
+    "auroc": 0.10175438596491229,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "wood",
+    "test_inference_time": 0.35633015632629395,
+    "train_time": 8.334084749221802
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5666666666666667,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.05561709403991699,
+    "train_time": 0.08111000061035156
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8149122807017544,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.10505080223083496,
+    "train_time": 0.0597996711730957
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6078947368421053,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.15592026710510254,
+    "train_time": 0.06729841232299805
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7289473684210526,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.20687365531921387,
+    "train_time": 0.07554483413696289
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7622807017543859,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.2585568428039551,
+    "train_time": 0.08261513710021973
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.30773043632507324,
+    "train_time": 0.09007096290588379
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7614035087719297,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.3748016357421875,
+    "train_time": 0.09866213798522949
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7385964912280703,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.4099743366241455,
+    "train_time": 0.10613775253295898
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8473684210526315,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.45969390869140625,
+    "train_time": 0.11295294761657715
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8956140350877193,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.5099887847900391,
+    "train_time": 0.1204679012298584
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8333333333333333,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.0152018070220947,
+    "train_time": 0.1963052749633789
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9105263157894736,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.5184693336486816,
+    "train_time": 0.27216434478759766
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8824561403508773,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 2.0262203216552734,
+    "train_time": 0.3482332229614258
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8929824561403509,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 2.5311803817749023,
+    "train_time": 0.42485618591308594
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8587719298245614,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 3.036223888397217,
+    "train_time": 0.5006446838378906
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9271929824561403,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 3.5418763160705566,
+    "train_time": 0.600452184677124
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8982456140350876,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 4.048095703125,
+    "train_time": 0.69071364402771
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9043859649122807,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 4.5515100955963135,
+    "train_time": 0.7686104774475098
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9298245614035088,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 5.058770418167114,
+    "train_time": 0.8430209159851074
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6447368421052632,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.027637720108032227,
+    "train_time": 0.050316572189331055
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6333333333333333,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.052332162857055664,
+    "train_time": 0.03655695915222168
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7315789473684211,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.07806158065795898,
+    "train_time": 0.04326772689819336
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7473684210526316,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.10295343399047852,
+    "train_time": 0.05009317398071289
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8403508771929824,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.12821125984191895,
+    "train_time": 0.05670595169067383
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7421052631578947,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.15404510498046875,
+    "train_time": 0.06370735168457031
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8026315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.17807340621948242,
+    "train_time": 0.0703878402709961
+  },
+  {
+    "augmented": true,
+    "auroc": 0.769298245614035,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.2052154541015625,
+    "train_time": 0.0768582820892334
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8149122807017544,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.22823429107666016,
+    "train_time": 0.08396506309509277
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8350877192982457,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.2535557746887207,
+    "train_time": 0.09060072898864746
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8350877192982455,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.5033552646636963,
+    "train_time": 0.15854525566101074
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8798245614035088,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.7538962364196777,
+    "train_time": 0.2262556552886963
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8859649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.0046286582946777,
+    "train_time": 0.29384827613830566
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8228070175438597,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.2520654201507568,
+    "train_time": 0.3622772693634033
+  },
+  {
+    "augmented": true,
+    "auroc": 0.85,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.503225326538086,
+    "train_time": 0.4299135208129883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8640350877192982,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.7477142810821533,
+    "train_time": 0.4970207214355469
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8894736842105263,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 2.001328468322754,
+    "train_time": 0.565345287322998
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8850877192982456,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 2.2523512840270996,
+    "train_time": 0.6327183246612549
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9026315789473685,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 2.5054097175598145,
+    "train_time": 0.7013154029846191
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8587719298245614,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.013692378997802734,
+    "train_time": 0.018932342529296875
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7403508771929824,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.026574134826660156,
+    "train_time": 0.025219440460205078
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7780701754385966,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.03930974006652832,
+    "train_time": 0.03153204917907715
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7982456140350878,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.05204415321350098,
+    "train_time": 0.03813958168029785
+  },
+  {
+    "augmented": true,
+    "auroc": 0.857017543859649,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.06469535827636719,
+    "train_time": 0.044539690017700195
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.07740974426269531,
+    "train_time": 0.05085635185241699
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8859649122807016,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.09014511108398438,
+    "train_time": 0.0571591854095459
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8666666666666667,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.10288071632385254,
+    "train_time": 0.06359577178955078
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8657894736842106,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.11521768569946289,
+    "train_time": 0.0702359676361084
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9342105263157894,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.12792396545410156,
+    "train_time": 0.0762336254119873
+  },
+  {
+    "augmented": true,
+    "auroc": 0.95,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.2540903091430664,
+    "train_time": 0.14010858535766602
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8798245614035087,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.38074398040771484,
+    "train_time": 0.2044053077697754
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9236842105263159,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.507620096206665,
+    "train_time": 0.26783299446105957
+  },
+  {
+    "augmented": true,
+    "auroc": 0.912280701754386,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.6337916851043701,
+    "train_time": 0.33075976371765137
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9175438596491228,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.7597038745880127,
+    "train_time": 0.39528775215148926
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9377192982456141,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.885688066482544,
+    "train_time": 0.4582483768463135
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.0126652717590332,
+    "train_time": 0.5232434272766113
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8964912280701753,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.1394243240356445,
+    "train_time": 0.5874300003051758
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9026315789473683,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 1.265233039855957,
+    "train_time": 0.6517124176025391
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8929824561403509,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.007899761199951172,
+    "train_time": 0.012969255447387695
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9236842105263158,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.015339136123657227,
+    "train_time": 0.0186460018157959
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9184210526315789,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.022655487060546875,
+    "train_time": 0.024907827377319336
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9517543859649124,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.029687166213989258,
+    "train_time": 0.03131842613220215
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9131578947368422,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.03717660903930664,
+    "train_time": 0.03773307800292969
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9017543859649123,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.04456043243408203,
+    "train_time": 0.0441899299621582
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9359649122807018,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.05166459083557129,
+    "train_time": 0.04998207092285156
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9157894736842106,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.05898761749267578,
+    "train_time": 0.05617952346801758
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9350877192982456,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.06638693809509277,
+    "train_time": 0.06256222724914551
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9403508771929825,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.07315182685852051,
+    "train_time": 0.06862568855285645
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9421052631578947,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.14540982246398926,
+    "train_time": 0.12998056411743164
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9377192982456141,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.21801066398620605,
+    "train_time": 0.19135069847106934
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9385964912280702,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.2901029586791992,
+    "train_time": 0.25271153450012207
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9368421052631579,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.36321353912353516,
+    "train_time": 0.3145272731781006
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9473684210526316,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.43663620948791504,
+    "train_time": 0.3758392333984375
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9421052631578948,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.5076236724853516,
+    "train_time": 0.4376382827758789
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9491228070175438,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.5811114311218262,
+    "train_time": 0.5141315460205078
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9429824561403508,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.6528699398040771,
+    "train_time": 0.5612387657165527
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9385964912280702,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "wood",
+    "test_inference_time": 0.7269268035888672,
+    "train_time": 0.6225619316101074
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8043859649122806,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 24.802911043167114,
+    "train_time": 10.68222188949585
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6087719298245614,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 13.719137191772461,
+    "train_time": 5.351624011993408
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7508771929824561,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 6.525203466415405,
+    "train_time": 2.671672821044922
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9359649122807018,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 1.8339946269989014,
+    "train_time": 1.3266098499298096
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2803163528442383,
+    "train_time": 10.694465637207031
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.1832566261291504,
+    "train_time": 5.345354318618774
+  },
+  {
+    "augmented": true,
+    "auroc": 0.631578947368421,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.3012123107910156,
+    "train_time": 2.6714065074920654
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5526315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06923913955688477,
+    "train_time": 1.3254568576812744
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2815816402435303,
+    "train_time": 10.682724952697754
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.1836080551147461,
+    "train_time": 5.348214864730835
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6578947368421053,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.30117249488830566,
+    "train_time": 2.6739652156829834
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.0692892074584961,
+    "train_time": 1.326855182647705
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6789473684210526,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.81118631362915,
+    "train_time": 10.686278343200684
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5622807017543859,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.352024793624878,
+    "train_time": 5.352541446685791
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070174,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.256301164627075,
+    "train_time": 2.6724190711975098
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9192982456140351,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 3.7648439407348633,
+    "train_time": 1.3269307613372803
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2805149555206299,
+    "train_time": 10.695663690567017
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.18389487266540527,
+    "train_time": 5.350376129150391
+  },
+  {
+    "augmented": true,
+    "auroc": 0.763157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.3008856773376465,
+    "train_time": 2.6726064682006836
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06939435005187988,
+    "train_time": 1.3267481327056885
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.77137637138367,
+    "train_time": 10.69473910331726
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.36342167854309,
+    "train_time": 5.348006248474121
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.248106718063354,
+    "train_time": 2.671104907989502
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 4.177741050720215,
+    "train_time": 1.3259103298187256
+  },
+  {
+    "augmented": true,
+    "auroc": 0.756140350877193,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 25.635679483413696,
+    "train_time": 10.696273803710938
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7342105263157894,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 11.91254210472107,
+    "train_time": 5.3537163734436035
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7640350877192983,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 6.473664283752441,
+    "train_time": 2.6716387271881104
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 1.7424068450927734,
+    "train_time": 1.3270604610443115
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2669968605041504,
+    "train_time": 10.686816930770874
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.13741731643676758,
+    "train_time": 5.349671363830566
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5526315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.1280660629272461,
+    "train_time": 2.6734821796417236
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.04891848564147949,
+    "train_time": 1.326338768005371
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2674565315246582,
+    "train_time": 10.700936555862427
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.13764166831970215,
+    "train_time": 5.353105783462524
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5789473684210527,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.12809228897094727,
+    "train_time": 2.6736133098602295
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.049016475677490234,
+    "train_time": 1.3270971775054932
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7964912280701755,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.18072748184204,
+    "train_time": 10.699465990066528
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6859649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.36702036857605,
+    "train_time": 5.350913763046265
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9359649122807018,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.253855228424072,
+    "train_time": 2.671034812927246
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8543859649122807,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 3.099842071533203,
+    "train_time": 1.3271925449371338
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2674672603607178,
+    "train_time": 10.69286561012268
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.1376183032989502,
+    "train_time": 5.350328207015991
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.12803983688354492,
+    "train_time": 2.6779446601867676
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.04903411865234375,
+    "train_time": 1.3274312019348145
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.74893808364868,
+    "train_time": 10.693381071090698
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.368107795715332,
+    "train_time": 5.344714164733887
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.248924016952515,
+    "train_time": 2.674823045730591
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 4.179802179336548,
+    "train_time": 1.3278820514678955
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7359649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 24.149697065353394,
+    "train_time": 10.698241472244263
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7403508771929825,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 13.342894077301025,
+    "train_time": 5.35393214225769
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8228070175438597,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 7.050238609313965,
+    "train_time": 2.6720120906829834
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8833333333333333,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 1.8548872470855713,
+    "train_time": 1.3264870643615723
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2801499366760254,
+    "train_time": 10.683286905288696
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.18349289894104004,
+    "train_time": 5.348533630371094
+  },
+  {
+    "augmented": true,
+    "auroc": 0.631578947368421,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.3009912967681885,
+    "train_time": 2.6740849018096924
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5526315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06957507133483887,
+    "train_time": 1.3269257545471191
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2805745601654053,
+    "train_time": 10.697072267532349
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.1834864616394043,
+    "train_time": 5.351790904998779
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7324561403508771,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.30095529556274414,
+    "train_time": 2.6761553287506104
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5526315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06942033767700195,
+    "train_time": 1.325702428817749
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7017543859649122,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.7629280090332,
+    "train_time": 10.691694736480713
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7149122807017544,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.36366581916809,
+    "train_time": 5.3504509925842285
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070174,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.248879432678223,
+    "train_time": 2.6711502075195312
+  },
+  {
+    "augmented": true,
+    "auroc": 0.868421052631579,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 3.724116086959839,
+    "train_time": 1.3274497985839844
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2802860736846924,
+    "train_time": 10.697599411010742
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.18375110626220703,
+    "train_time": 5.356475830078125
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6842105263157895,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.3010270595550537,
+    "train_time": 2.6745290756225586
+  },
+  {
+    "augmented": true,
+    "auroc": 0.631578947368421,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06955504417419434,
+    "train_time": 1.3268072605133057
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.77288103103638,
+    "train_time": 10.695635080337524
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.364418506622314,
+    "train_time": 5.3462135791778564
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.246328830718994,
+    "train_time": 2.6726887226104736
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 4.180510759353638,
+    "train_time": 1.3273239135742188
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6359649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 24.46403217315674,
+    "train_time": 10.691797971725464
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7403508771929825,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 12.943230867385864,
+    "train_time": 5.349372863769531
+  },
+  {
+    "augmented": true,
+    "auroc": 0.775438596491228,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 6.845342636108398,
+    "train_time": 2.6716854572296143
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 1.872534990310669,
+    "train_time": 1.328986644744873
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2805655002593994,
+    "train_time": 10.69841742515564
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.18414640426635742,
+    "train_time": 5.345914125442505
+  },
+  {
+    "augmented": true,
+    "auroc": 0.631578947368421,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.3009755611419678,
+    "train_time": 2.67773699760437
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5526315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06933808326721191,
+    "train_time": 1.3256680965423584
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.28034257888793945,
+    "train_time": 10.694209098815918
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.18339800834655762,
+    "train_time": 5.351553440093994
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6521929824561403,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.30126214027404785,
+    "train_time": 2.673009157180786
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5526315789473684,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.0694427490234375,
+    "train_time": 1.3270595073699951
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7298245614035087,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.81406259536743,
+    "train_time": 10.686478614807129
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6956140350877192,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.351678371429443,
+    "train_time": 5.350221872329712
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070174,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.254307270050049,
+    "train_time": 2.6706981658935547
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9333333333333333,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 3.740461826324463,
+    "train_time": 1.3264076709747314
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.2803957462310791,
+    "train_time": 10.69188380241394
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.18343710899353027,
+    "train_time": 5.351825952529907
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7039473684210527,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.30115270614624023,
+    "train_time": 2.674100160598755
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5263157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 0.06934618949890137,
+    "train_time": 1.3265564441680908
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 32.80301094055176,
+    "train_time": 10.69700288772583
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 16.357435941696167,
+    "train_time": 5.344912767410278
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 8.254068374633789,
+    "train_time": 2.672365188598633
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "wood",
+    "test_inference_time": 4.1767590045928955,
+    "train_time": 1.3272900581359863
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8859649122807017,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4113450050354004,
+    "train_time": 6.033292055130005
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8780701754385964,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.449173927307129,
+    "train_time": 5.960892677307129
+  },
+  {
+    "augmented": true,
+    "auroc": 0.875438596491228,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4303803443908691,
+    "train_time": 5.9722254276275635
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8745614035087719,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4265086650848389,
+    "train_time": 6.002120494842529
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8719298245614036,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4172465801239014,
+    "train_time": 5.976014852523804
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8719298245614036,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.429422378540039,
+    "train_time": 5.9816436767578125
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8710526315789473,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4330523014068604,
+    "train_time": 5.996118545532227
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8710526315789473,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4300274848937988,
+    "train_time": 6.048172950744629
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8701754385964913,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4269382953643799,
+    "train_time": 5.989338159561157
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8710526315789473,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4404969215393066,
+    "train_time": 6.000439643859863
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8719298245614036,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4193124771118164,
+    "train_time": 6.011636734008789
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8736842105263157,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.419325828552246,
+    "train_time": 6.021187782287598
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8745614035087719,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.4208910465240479,
+    "train_time": 6.013733386993408
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8745614035087719,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 1.404970407485962,
+    "train_time": 6.023681163787842
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9184210526315789,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7845602035522461,
+    "train_time": 3.0093579292297363
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9052631578947369,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7872292995452881,
+    "train_time": 3.0124711990356445
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9052631578947368,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7453100681304932,
+    "train_time": 3.034557580947876
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9026315789473685,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7545266151428223,
+    "train_time": 3.009274482727051
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9026315789473683,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.758965253829956,
+    "train_time": 3.015120029449463
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9052631578947368,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7668514251708984,
+    "train_time": 3.017059564590454
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9061403508771929,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.8188858032226562,
+    "train_time": 3.0210795402526855
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9052631578947368,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.807305097579956,
+    "train_time": 3.035670042037964
+  },
+  {
+    "augmented": true,
+    "auroc": 0.906140350877193,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7749450206756592,
+    "train_time": 3.019477128982544
+  },
+  {
+    "augmented": true,
+    "auroc": 0.906140350877193,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7350037097930908,
+    "train_time": 3.029757499694824
+  },
+  {
+    "augmented": true,
+    "auroc": 0.906140350877193,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7678699493408203,
+    "train_time": 3.009727716445923
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9043859649122807,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7396056652069092,
+    "train_time": 3.0436177253723145
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9043859649122807,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.7807793617248535,
+    "train_time": 3.0086169242858887
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9043859649122807,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.744959831237793,
+    "train_time": 3.0318169593811035
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9631578947368421,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.38088226318359375,
+    "train_time": 1.5328359603881836
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9701754385964912,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.38336992263793945,
+    "train_time": 1.537794828414917
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9701754385964912,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.39018821716308594,
+    "train_time": 1.5079443454742432
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9614035087719298,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.39560508728027344,
+    "train_time": 1.4857208728790283
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9605263157894737,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.3845491409301758,
+    "train_time": 1.50972580909729
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.3973376750946045,
+    "train_time": 1.533834457397461
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.4047813415527344,
+    "train_time": 1.5197594165802002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.963157894736842,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.4148573875427246,
+    "train_time": 1.5046358108520508
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9614035087719298,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.36802053451538086,
+    "train_time": 1.5259714126586914
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9614035087719298,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.3884110450744629,
+    "train_time": 1.5059709548950195
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.4091925621032715,
+    "train_time": 1.533304214477539
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.3842041492462158,
+    "train_time": 1.5263571739196777
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.41403865814208984,
+    "train_time": 1.5246617794036865
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.4066321849822998,
+    "train_time": 1.5409033298492432
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9833333333333333,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.18201828002929688,
+    "train_time": 0.7711634635925293
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9850877192982456,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.18712091445922852,
+    "train_time": 0.7520644664764404
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9824561403508771,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.20826077461242676,
+    "train_time": 0.7718179225921631
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9736842105263157,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.19562435150146484,
+    "train_time": 0.7828185558319092
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9692982456140351,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.20487523078918457,
+    "train_time": 0.7942812442779541
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9675438596491228,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.19930243492126465,
+    "train_time": 0.7875692844390869
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9675438596491228,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.2128431797027588,
+    "train_time": 0.7760698795318604
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9649122807017544,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.24550580978393555,
+    "train_time": 0.7530698776245117
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9640350877192982,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.20517349243164062,
+    "train_time": 0.7910773754119873
+  },
+  {
+    "augmented": true,
+    "auroc": 0.962280701754386,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.17742466926574707,
+    "train_time": 0.7496535778045654
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.25147247314453125,
+    "train_time": 0.770789623260498
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9596491228070175,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.21056461334228516,
+    "train_time": 0.7508254051208496
+  },
+  {
+    "augmented": true,
+    "auroc": 0.956140350877193,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.20738434791564941,
+    "train_time": 0.7935702800750732
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9543859649122807,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "wood",
+    "test_inference_time": 0.18937325477600098,
+    "train_time": 0.7838776111602783
+  },
+  {
+    "augmented": true,
+    "auroc": 0.44210526315789483,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0002186298370361328,
+    "train_time": 1.0551443099975586
+  },
+  {
+    "augmented": true,
+    "auroc": 0.43859649122807015,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0002167224884033203,
+    "train_time": 1.2160165309906006
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5921052631578947,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.00021219253540039062,
+    "train_time": 1.2609655857086182
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9175438596491228,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0002124309539794922,
+    "train_time": 1.1429319381713867
+  },
+  {
+    "augmented": true,
+    "auroc": 0.44122807017543864,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0002865791320800781,
+    "train_time": 2.0535824298858643
+  },
+  {
+    "augmented": true,
+    "auroc": 0.46140350877192976,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.00029158592224121094,
+    "train_time": 2.4769937992095947
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6614035087719299,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.00028133392333984375,
+    "train_time": 2.2243363857269287
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9096491228070176,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0002841949462890625,
+    "train_time": 2.3596351146698
+  },
+  {
+    "augmented": true,
+    "auroc": 0.4368421052631579,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0005710124969482422,
+    "train_time": 11.864175081253052
+  },
+  {
+    "augmented": true,
+    "auroc": 0.581578947368421,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0005733966827392578,
+    "train_time": 8.354662418365479
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7219298245614035,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0005776882171630859,
+    "train_time": 10.100166082382202
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9298245614035088,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0005731582641601562,
+    "train_time": 8.406168937683105
+  },
+  {
+    "augmented": true,
+    "auroc": 0.42894736842105263,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.001947641372680664,
+    "train_time": 22.521715879440308
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0019297599792480469,
+    "train_time": 22.57294273376465
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8070175438596491,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0019271373748779297,
+    "train_time": 18.486406803131104
+  },
+  {
+    "augmented": true,
+    "auroc": 0.9526315789473685,
+    "feature_extraction_initialization": "imagenet1k_v1",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1482,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "wood",
+    "test_inference_time": 0.0018994808197021484,
+    "train_time": 13.493372440338135
+  }
+]

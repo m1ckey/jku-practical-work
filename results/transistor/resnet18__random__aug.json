@@ -1,0 +1,5254 @@
+[
+  {
+    "augmented": true,
+    "auroc": 0.8312499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.521068572998047,
+    "train_time": 48.75837993621826
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8295833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3328886032104492,
+    "train_time": 25.757673978805542
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8154166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5908703804016113,
+    "train_time": 11.266762018203735
+  },
+  {
+    "augmented": true,
+    "auroc": 0.79625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.2853972911834717,
+    "train_time": 5.593517780303955
+  },
+  {
+    "augmented": true,
+    "auroc": 0.61375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 7.1591386795043945,
+    "train_time": 49.07601833343506
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6333333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 3.4943454265594482,
+    "train_time": 25.75027632713318
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6225,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.8399243354797363,
+    "train_time": 11.295145511627197
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5708333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.0128095149993896,
+    "train_time": 5.538062810897827
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8291666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.555835485458374,
+    "train_time": 49.36055636405945
+  },
+  {
+    "augmented": true,
+    "auroc": 0.83,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3493235111236572,
+    "train_time": 25.885010480880737
+  },
+  {
+    "augmented": true,
+    "auroc": 0.81625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5908424854278564,
+    "train_time": 11.303215026855469
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7966666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.29666662216186523,
+    "train_time": 5.583157539367676
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8320833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.563535451889038,
+    "train_time": 49.552218437194824
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8295833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.343498706817627,
+    "train_time": 25.868295907974243
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8154166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5902843475341797,
+    "train_time": 11.304194927215576
+  },
+  {
+    "augmented": true,
+    "auroc": 0.79625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.2847020626068115,
+    "train_time": 5.5998358726501465
+  },
+  {
+    "augmented": true,
+    "auroc": 0.835,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.5477705001831055,
+    "train_time": 49.346399545669556
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8287499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3428258895874023,
+    "train_time": 25.81047749519348
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8170833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5917744636535645,
+    "train_time": 11.352309942245483
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7966666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.2977635860443115,
+    "train_time": 5.582978963851929
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8383333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.560462474822998,
+    "train_time": 49.348872423172
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8295833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3482441902160645,
+    "train_time": 25.785255193710327
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8204166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5902795791625977,
+    "train_time": 11.3224458694458
+  },
+  {
+    "augmented": true,
+    "auroc": 0.79625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.2691915035247803,
+    "train_time": 5.605222225189209
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8412499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.555243968963623,
+    "train_time": 49.33983874320984
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8320833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3521449565887451,
+    "train_time": 25.93156361579895
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8216666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5873000621795654,
+    "train_time": 11.299222230911255
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7970833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.28675365447998047,
+    "train_time": 5.59342622756958
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8379166666666665,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.582669496536255,
+    "train_time": 49.889832735061646
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8329166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3514163494110107,
+    "train_time": 26.042374849319458
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8245833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5883300304412842,
+    "train_time": 11.334503173828125
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7983333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.2827885150909424,
+    "train_time": 5.610071182250977
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8454166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.601539134979248,
+    "train_time": 49.8850257396698
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8370833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.3692348003387451,
+    "train_time": 26.292421102523804
+  },
+  {
+    "augmented": true,
+    "auroc": 0.82875,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.5900764465332031,
+    "train_time": 11.349215030670166
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8016666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.28532958030700684,
+    "train_time": 5.625910043716431
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8516666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 2.7376151084899902,
+    "train_time": 50.79724049568176
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8425,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 1.390904426574707,
+    "train_time": 26.284483194351196
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8325,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.6055347919464111,
+    "train_time": 11.488602876663208
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8020833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "transistor",
+    "test_inference_time": 0.24761462211608887,
+    "train_time": 5.663307189941406
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6133333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.06772565841674805,
+    "train_time": 0.07374119758605957
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6229166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.1325817108154297,
+    "train_time": 0.05463004112243652
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5900000000000001,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.1957387924194336,
+    "train_time": 0.062169790267944336
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6475,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.2591249942779541,
+    "train_time": 0.06979227066040039
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7345833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.32404255867004395,
+    "train_time": 0.07764816284179688
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6358333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.38730335235595703,
+    "train_time": 0.08583402633666992
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6849999999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.45075058937072754,
+    "train_time": 0.09230732917785645
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6366666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.5148088932037354,
+    "train_time": 0.09996676445007324
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6354166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.5786921977996826,
+    "train_time": 0.10833621025085449
+  },
+  {
+    "augmented": true,
+    "auroc": 0.67625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.6421794891357422,
+    "train_time": 0.11569476127624512
+  },
+  {
+    "augmented": true,
+    "auroc": 0.64625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.282160997390747,
+    "train_time": 0.19242048263549805
+  },
+  {
+    "augmented": true,
+    "auroc": 0.65625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.914808750152588,
+    "train_time": 0.2690465450286865
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6704166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 2.551100015640259,
+    "train_time": 0.34485673904418945
+  },
+  {
+    "augmented": true,
+    "auroc": 0.65,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 3.189502239227295,
+    "train_time": 0.42179036140441895
+  },
+  {
+    "augmented": true,
+    "auroc": 0.65,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 3.822711229324341,
+    "train_time": 0.5361645221710205
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6579166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 4.461156845092773,
+    "train_time": 0.6127398014068604
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6462500000000001,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 5.093857526779175,
+    "train_time": 0.6876392364501953
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6370833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 5.728161811828613,
+    "train_time": 0.767324686050415
+  },
+  {
+    "augmented": true,
+    "auroc": 0.66375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 6.365625858306885,
+    "train_time": 0.8402676582336426
+  },
+  {
+    "augmented": true,
+    "auroc": 0.66625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.03592061996459961,
+    "train_time": 0.055100202560424805
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5925,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.06822633743286133,
+    "train_time": 0.03388786315917969
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6283333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.10141777992248535,
+    "train_time": 0.04074525833129883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6075,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.1338047981262207,
+    "train_time": 0.0475773811340332
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6720833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.16746830940246582,
+    "train_time": 0.054312705993652344
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6466666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.20028305053710938,
+    "train_time": 0.061295509338378906
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5562499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.23253560066223145,
+    "train_time": 0.06827163696289062
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5945833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.2661468982696533,
+    "train_time": 0.07508420944213867
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6074999999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.2987205982208252,
+    "train_time": 0.08173203468322754
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6083333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.33126115798950195,
+    "train_time": 0.08861112594604492
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6537499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.6613092422485352,
+    "train_time": 0.15779638290405273
+  },
+  {
+    "augmented": true,
+    "auroc": 0.65,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.9907269477844238,
+    "train_time": 0.22658419609069824
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.320152759552002,
+    "train_time": 0.2961995601654053
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6529166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.649780511856079,
+    "train_time": 0.3642404079437256
+  },
+  {
+    "augmented": true,
+    "auroc": 0.64,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.982062578201294,
+    "train_time": 0.4317312240600586
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6683333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 2.307805299758911,
+    "train_time": 0.500356912612915
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6445833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 2.6361501216888428,
+    "train_time": 0.5705757141113281
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6879166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 2.962014675140381,
+    "train_time": 0.6384148597717285
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 3.2967469692230225,
+    "train_time": 0.7153980731964111
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5245833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.016761064529418945,
+    "train_time": 0.018651723861694336
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7400000000000001,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.03253912925720215,
+    "train_time": 0.023764371871948242
+  },
+  {
+    "augmented": true,
+    "auroc": 0.64125,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.04823780059814453,
+    "train_time": 0.030469417572021484
+  },
+  {
+    "augmented": true,
+    "auroc": 0.63,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.06423711776733398,
+    "train_time": 0.03708982467651367
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6016666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.07980203628540039,
+    "train_time": 0.043627023696899414
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5983333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.09539341926574707,
+    "train_time": 0.04998588562011719
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6933333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.11075663566589355,
+    "train_time": 0.05643939971923828
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6687500000000002,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.1265850067138672,
+    "train_time": 0.06303787231445312
+  },
+  {
+    "augmented": true,
+    "auroc": 0.64625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.1422109603881836,
+    "train_time": 0.06937932968139648
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6658333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.1581568717956543,
+    "train_time": 0.07655954360961914
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6670833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.314115047454834,
+    "train_time": 0.1414201259613037
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6620833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.46945953369140625,
+    "train_time": 0.20596742630004883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6558333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.6250457763671875,
+    "train_time": 0.2716684341430664
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6370833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.7821354866027832,
+    "train_time": 0.3362264633178711
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6475,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.936417818069458,
+    "train_time": 0.40252089500427246
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6808333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.092146873474121,
+    "train_time": 0.46622419357299805
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6833333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.246588945388794,
+    "train_time": 0.5335559844970703
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6458333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.402881383895874,
+    "train_time": 0.5955736637115479
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6941666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 1.5585095882415771,
+    "train_time": 0.6615569591522217
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6583333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.009460687637329102,
+    "train_time": 0.01247262954711914
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6316666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.019460201263427734,
+    "train_time": 0.018479347229003906
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7141666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.027670621871948242,
+    "train_time": 0.024461984634399414
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6345833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.03582930564880371,
+    "train_time": 0.031037092208862305
+  },
+  {
+    "augmented": true,
+    "auroc": 0.635,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.04448127746582031,
+    "train_time": 0.03729581832885742
+  },
+  {
+    "augmented": true,
+    "auroc": 0.61125,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.05331277847290039,
+    "train_time": 0.04359006881713867
+  },
+  {
+    "augmented": true,
+    "auroc": 0.65,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.06201004981994629,
+    "train_time": 0.05011105537414551
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6545833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.07094383239746094,
+    "train_time": 0.0564732551574707
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6016666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.07967400550842285,
+    "train_time": 0.06248760223388672
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6970833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.0883932113647461,
+    "train_time": 0.0687417984008789
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6470833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.17583203315734863,
+    "train_time": 0.1318528652191162
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6504166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.26251792907714844,
+    "train_time": 0.1942594051361084
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6137499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.35091328620910645,
+    "train_time": 0.25722599029541016
+  },
+  {
+    "augmented": true,
+    "auroc": 0.63625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.4379868507385254,
+    "train_time": 0.3197906017303467
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6708333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.5242462158203125,
+    "train_time": 0.38350677490234375
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6945833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.6120414733886719,
+    "train_time": 0.44527673721313477
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6758333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.6993961334228516,
+    "train_time": 0.5071179866790771
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6641666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.7856457233428955,
+    "train_time": 0.5694136619567871
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6845833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "transistor",
+    "test_inference_time": 0.8732740879058838,
+    "train_time": 0.6334118843078613
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6195833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 19.661725282669067,
+    "train_time": 7.641855955123901
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5779166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 9.422691583633423,
+    "train_time": 3.940117835998535
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6245833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 5.4029364585876465,
+    "train_time": 1.898961067199707
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5933333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.0169920921325684,
+    "train_time": 0.9514641761779785
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6679906845092773,
+    "train_time": 7.629641056060791
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.4065694808959961,
+    "train_time": 3.7913014888763428
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2812838554382324,
+    "train_time": 1.8952820301055908
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18396759033203125,
+    "train_time": 0.9480025768280029
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5122916666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6673681735992432,
+    "train_time": 7.612674713134766
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5166666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40665316581726074,
+    "train_time": 3.8083384037017822
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5166666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.28137683868408203,
+    "train_time": 1.891465187072754
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5345833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18449687957763672,
+    "train_time": 0.9516758918762207
+  },
+  {
+    "augmented": true,
+    "auroc": 0.61625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.28566336631775,
+    "train_time": 7.633154392242432
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5525,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.334450721740723,
+    "train_time": 3.7979860305786133
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5608333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.914644956588745,
+    "train_time": 1.8925604820251465
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5845833333333332,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.4727139472961426,
+    "train_time": 0.949547529220581
+  },
+  {
+    "augmented": true,
+    "auroc": 0.495625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.667198896408081,
+    "train_time": 7.62829065322876
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5083333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40320825576782227,
+    "train_time": 3.7953968048095703
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5452083333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2811927795410156,
+    "train_time": 1.8943932056427002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5416666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.1826460361480713,
+    "train_time": 0.9484922885894775
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.79095959663391,
+    "train_time": 7.6385338306427
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.906809091567993,
+    "train_time": 3.7918217182159424
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.913662433624268,
+    "train_time": 1.8978686332702637
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.468127965927124,
+    "train_time": 0.9496169090270996
+  },
+  {
+    "augmented": true,
+    "auroc": 0.62,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 16.470693826675415,
+    "train_time": 7.620163679122925
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7066666666666668,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 8.943118333816528,
+    "train_time": 3.7932701110839844
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6929166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 4.211277723312378,
+    "train_time": 1.890946388244629
+  },
+  {
+    "augmented": true,
+    "auroc": 0.635,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 2.5107436180114746,
+    "train_time": 0.9495384693145752
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.37969470024108887,
+    "train_time": 7.627731561660767
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2013852596282959,
+    "train_time": 3.7941372394561768
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.12376737594604492,
+    "train_time": 1.888354778289795
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.0832834243774414,
+    "train_time": 0.952019453048706
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.37953734397888184,
+    "train_time": 7.622891187667847
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.20261812210083008,
+    "train_time": 3.7987427711486816
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.12380599975585938,
+    "train_time": 1.8923158645629883
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.08360934257507324,
+    "train_time": 0.948528528213501
+  },
+  {
+    "augmented": true,
+    "auroc": 0.54,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 26.544978380203247,
+    "train_time": 7.628723382949829
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6504166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 12.520256519317627,
+    "train_time": 3.7915217876434326
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5858333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.703819751739502,
+    "train_time": 1.8927147388458252
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5920833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.3413009643554688,
+    "train_time": 0.9482762813568115
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.3790929317474365,
+    "train_time": 7.6203484535217285
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2026042938232422,
+    "train_time": 3.791426181793213
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.1237177848815918,
+    "train_time": 1.8920304775238037
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.08363676071166992,
+    "train_time": 0.9483869075775146
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.78232455253601,
+    "train_time": 7.631141424179077
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.943369150161743,
+    "train_time": 3.7890307903289795
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.9101433753967285,
+    "train_time": 1.8918824195861816
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.4758400917053223,
+    "train_time": 0.9492435455322266
+  },
+  {
+    "augmented": true,
+    "auroc": 0.66875,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 18.963983297348022,
+    "train_time": 7.6174156665802
+  },
+  {
+    "augmented": true,
+    "auroc": 0.64625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 9.813788175582886,
+    "train_time": 3.8039631843566895
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5983333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 5.287476539611816,
+    "train_time": 1.894127368927002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6420833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 2.9698286056518555,
+    "train_time": 0.951988697052002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6664605140686035,
+    "train_time": 7.618950128555298
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40578699111938477,
+    "train_time": 3.791562080383301
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.28096485137939453,
+    "train_time": 1.8902294635772705
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18420815467834473,
+    "train_time": 0.9479444026947021
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5083333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6668787002563477,
+    "train_time": 7.620628118515015
+  },
+  {
+    "augmented": true,
+    "auroc": 0.525,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40595388412475586,
+    "train_time": 3.791823387145996
+  },
+  {
+    "augmented": true,
+    "auroc": 0.525,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2811095714569092,
+    "train_time": 1.8897857666015625
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5241666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.1839611530303955,
+    "train_time": 0.9480171203613281
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6120833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.310057401657104,
+    "train_time": 7.6260459423065186
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7320833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.41396164894104,
+    "train_time": 3.7884140014648438
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6220833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.914015293121338,
+    "train_time": 1.894899606704712
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5529166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.480515956878662,
+    "train_time": 0.9489743709564209
+  },
+  {
+    "augmented": true,
+    "auroc": 0.4875,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6665551662445068,
+    "train_time": 7.615633487701416
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5083333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40576910972595215,
+    "train_time": 3.793722152709961
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5416666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2808265686035156,
+    "train_time": 1.8908324241638184
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5216666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18368935585021973,
+    "train_time": 0.9494547843933105
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.780680179595947,
+    "train_time": 7.61653208732605
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.941993713378906,
+    "train_time": 3.790754556655884
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.909726858139038,
+    "train_time": 1.8911688327789307
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.474923849105835,
+    "train_time": 0.9526937007904053
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5720833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 19.20886754989624,
+    "train_time": 7.610022783279419
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6637500000000001,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 9.628971338272095,
+    "train_time": 3.7972121238708496
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6141666666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 5.493648529052734,
+    "train_time": 1.891324520111084
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6679166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 2.93748140335083,
+    "train_time": 0.949143648147583
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6666898727416992,
+    "train_time": 7.6259379386901855
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.4058387279510498,
+    "train_time": 3.784665822982788
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.2808358669281006,
+    "train_time": 1.8940327167510986
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18373894691467285,
+    "train_time": 0.9481425285339355
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5166666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6664624214172363,
+    "train_time": 7.620784282684326
+  },
+  {
+    "augmented": true,
+    "auroc": 0.50375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40595388412475586,
+    "train_time": 3.7925827503204346
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5041666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.28087592124938965,
+    "train_time": 1.8947465419769287
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5249999999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18382644653320312,
+    "train_time": 0.9499831199645996
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6158333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.200226068496704,
+    "train_time": 7.629605770111084
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5383333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.389824151992798,
+    "train_time": 3.7934608459472656
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7374999999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.915212631225586,
+    "train_time": 1.8926560878753662
+  },
+  {
+    "augmented": true,
+    "auroc": 0.6958333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.477982521057129,
+    "train_time": 0.9483530521392822
+  },
+  {
+    "augmented": true,
+    "auroc": 0.495625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.6668190956115723,
+    "train_time": 7.612033843994141
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5166666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.40570664405822754,
+    "train_time": 3.797266721725464
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5333333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.28076648712158203,
+    "train_time": 1.889228105545044
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5185416666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 0.18352341651916504,
+    "train_time": 0.9505114555358887
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 27.775946378707886,
+    "train_time": 7.605525970458984
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 13.939741849899292,
+    "train_time": 3.788210391998291
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 6.908169746398926,
+    "train_time": 1.8879432678222656
+  },
+  {
+    "augmented": true,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "transistor",
+    "test_inference_time": 3.4748730659484863,
+    "train_time": 0.9479472637176514
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7837500000000001,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4318735599517822,
+    "train_time": 4.828277349472046
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7745833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.421846628189087,
+    "train_time": 4.873416423797607
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7783333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4305012226104736,
+    "train_time": 4.844812393188477
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7879166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.3871386051177979,
+    "train_time": 4.800721645355225
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7879166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.3993206024169922,
+    "train_time": 4.852041721343994
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7779166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4443717002868652,
+    "train_time": 4.835365056991577
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7720833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4346442222595215,
+    "train_time": 4.829484939575195
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7775,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4331634044647217,
+    "train_time": 4.815776824951172
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7720833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4246103763580322,
+    "train_time": 4.86107325553894
+  },
+  {
+    "augmented": true,
+    "auroc": 0.76375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4599716663360596,
+    "train_time": 4.8404130935668945
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7591666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.452073574066162,
+    "train_time": 4.845768928527832
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7529166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4244489669799805,
+    "train_time": 4.8691370487213135
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7391666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4245238304138184,
+    "train_time": 4.903843402862549
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7304166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      200704
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 1.4705026149749756,
+    "train_time": 4.835998296737671
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7970833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7641661167144775,
+    "train_time": 2.4503705501556396
+  },
+  {
+    "augmented": true,
+    "auroc": 0.77875,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7658987045288086,
+    "train_time": 2.455972671508789
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7795833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7554166316986084,
+    "train_time": 2.4473018646240234
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7941666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7415080070495605,
+    "train_time": 2.5010666847229004
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7883333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7291765213012695,
+    "train_time": 2.455822467803955
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7770833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.746103048324585,
+    "train_time": 2.4416251182556152
+  },
+  {
+    "augmented": true,
+    "auroc": 0.78125,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7585394382476807,
+    "train_time": 2.4278600215911865
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7816666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7466483116149902,
+    "train_time": 2.4316911697387695
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7733333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7788982391357422,
+    "train_time": 2.4567506313323975
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7745833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.734140157699585,
+    "train_time": 2.4547042846679688
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7683333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7507953643798828,
+    "train_time": 2.494495153427124
+  },
+  {
+    "augmented": true,
+    "auroc": 0.75625,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.817164421081543,
+    "train_time": 2.461568832397461
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7429166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7544658184051514,
+    "train_time": 2.4505836963653564
+  },
+  {
+    "augmented": true,
+    "auroc": 0.73375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      100352
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.7486801147460938,
+    "train_time": 2.467963933944702
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.3967552185058594,
+    "train_time": 1.2314162254333496
+  },
+  {
+    "augmented": true,
+    "auroc": 0.775,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.3892097473144531,
+    "train_time": 1.2148303985595703
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7779166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.41312384605407715,
+    "train_time": 1.2495505809783936
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7929166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.4118013381958008,
+    "train_time": 1.2210664749145508
+  },
+  {
+    "augmented": true,
+    "auroc": 0.795,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.41967225074768066,
+    "train_time": 1.2203829288482666
+  },
+  {
+    "augmented": true,
+    "auroc": 0.77875,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.40205979347229004,
+    "train_time": 1.218602180480957
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7879166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.39385223388671875,
+    "train_time": 1.2511682510375977
+  },
+  {
+    "augmented": true,
+    "auroc": 0.785,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.36583733558654785,
+    "train_time": 1.2142021656036377
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7745833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.40715479850769043,
+    "train_time": 1.2069475650787354
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7691666666666668,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.3916308879852295,
+    "train_time": 1.2402803897857666
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7683333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.38478684425354004,
+    "train_time": 1.218428134918213
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7608333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.41754698753356934,
+    "train_time": 1.2256011962890625
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7470833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.43597841262817383,
+    "train_time": 1.2384922504425049
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7383333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      50176
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.4166831970214844,
+    "train_time": 1.262990951538086
+  },
+  {
+    "augmented": true,
+    "auroc": 0.8141666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 2
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.20592689514160156,
+    "train_time": 0.6370646953582764
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7925,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 4
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.21639704704284668,
+    "train_time": 0.641226053237915
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7925,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 6
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.22347664833068848,
+    "train_time": 0.6424407958984375
+  },
+  {
+    "augmented": true,
+    "auroc": 0.77875,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 8
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.22429442405700684,
+    "train_time": 0.6508550643920898
+  },
+  {
+    "augmented": true,
+    "auroc": 0.775,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 12
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.2248232364654541,
+    "train_time": 0.6366603374481201
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7858333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 16
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.23606157302856445,
+    "train_time": 0.6361253261566162
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7845833333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 20
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.24228930473327637,
+    "train_time": 0.6311938762664795
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7891666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 24
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.22677350044250488,
+    "train_time": 0.6333010196685791
+  },
+  {
+    "augmented": true,
+    "auroc": 0.78,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 28
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.21045136451721191,
+    "train_time": 0.6376285552978516
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7775,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 32
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.24081134796142578,
+    "train_time": 0.6642265319824219
+  },
+  {
+    "augmented": true,
+    "auroc": 0.77,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 40
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.20665931701660156,
+    "train_time": 0.6425023078918457
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7595833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 48
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.22143149375915527,
+    "train_time": 0.6233980655670166
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7483333333333333,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 56
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.21218395233154297,
+    "train_time": 0.6459870338439941
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7391666666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      25088
+    ],
+    "hyperparameter": {
+      "n_neighbors": 64
+    },
+    "model_name": "sklearn.neighbors.LocalOutlierFactor",
+    "object_name": "transistor",
+    "test_inference_time": 0.20264768600463867,
+    "train_time": 0.6563491821289062
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7075,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.00022554397583007812,
+    "train_time": 1.3160121440887451
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7345833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.00022649765014648438,
+    "train_time": 1.044281005859375
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7483333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0002288818359375,
+    "train_time": 1.699791431427002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7337499999999999,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      32
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 32
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0002288818359375,
+    "train_time": 1.2388081550598145
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7504166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.00030040740966796875,
+    "train_time": 2.7062265872955322
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7429166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.000308990478515625,
+    "train_time": 2.4175326824188232
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7558333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0003147125244140625,
+    "train_time": 2.737349510192871
+  },
+  {
+    "augmented": true,
+    "auroc": 0.69,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      64
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 64
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.00031566619873046875,
+    "train_time": 3.1460866928100586
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7733333333333332,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0006814002990722656,
+    "train_time": 14.467450141906738
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7808333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0006639957427978516,
+    "train_time": 10.058547019958496
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7645833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0006656646728515625,
+    "train_time": 11.551353931427002
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7345833333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      128
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 128
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0006699562072753906,
+    "train_time": 11.101101875305176
+  },
+  {
+    "augmented": true,
+    "auroc": 0.75375,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.002303600311279297,
+    "train_time": 20.85901975631714
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7454166666666666,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0023832321166992188,
+    "train_time": 19.58591341972351
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7354166666666667,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.0023729801177978516,
+    "train_time": 16.624001026153564
+  },
+  {
+    "augmented": true,
+    "auroc": 0.7233333333333334,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet18",
+    "feature_extraction_shape": [
+      1278,
+      256
+    ],
+    "hyperparameter": {
+      "dim_reduction": "pca",
+      "dim_reduction_components": 256
+    },
+    "model_name": "sklearn.covariance.EllipticEnvelope",
+    "object_name": "transistor",
+    "test_inference_time": 0.002396821975708008,
+    "train_time": 15.828404188156128
+  }
+]

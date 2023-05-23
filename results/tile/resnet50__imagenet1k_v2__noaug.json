@@ -1,0 +1,3942 @@
+[
+  {
+    "augmented": false,
+    "auroc": 0.6031746031746031,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.7765254974365234,
+    "train_time": 7.57935643196106
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8001443001443002,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.2536463737487793,
+    "train_time": 3.4529330730438232
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9823232323232323,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.6256303787231445,
+    "train_time": 1.733107566833496
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9707792207792207,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.23145675659179688,
+    "train_time": 0.9496216773986816
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6847041847041847,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 6.175351619720459,
+    "train_time": 7.938951253890991
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9545454545454545,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 3.9900026321411133,
+    "train_time": 3.7448463439941406
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9996392496392497,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.6551575660705566,
+    "train_time": 1.82356595993042
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9974747474747474,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "rbf"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.8151006698608398,
+    "train_time": 0.9486434459686279
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6042568542568543,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.655482053756714,
+    "train_time": 7.42992901802063
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8001443001443002,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.2454664707183838,
+    "train_time": 3.442542791366577
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9823232323232323,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.6130213737487793,
+    "train_time": 1.7370476722717285
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9707792207792207,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "sigmoid"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.24115228652954102,
+    "train_time": 0.9534990787506104
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6028138528138528,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.9955432415008545,
+    "train_time": 7.755053758621216
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7997835497835497,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.283036708831787,
+    "train_time": 3.4675967693328857
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9823232323232323,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.6376223564147949,
+    "train_time": 1.7447240352630615
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9707792207792207,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 3,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.2514328956604004,
+    "train_time": 0.9551281929016113
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6013708513708513,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 3.2262003421783447,
+    "train_time": 7.9977500438690186
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7997835497835497,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.3270444869995117,
+    "train_time": 3.5127601623535156
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9823232323232323,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.6385397911071777,
+    "train_time": 1.7446811199188232
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9707792207792207,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 5,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.25835108757019043,
+    "train_time": 0.9600355625152588
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6006493506493507,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 3.754023790359497,
+    "train_time": 9.25231385231018
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7997835497835497,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.6000185012817383,
+    "train_time": 3.8205296993255615
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9826839826839826,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.6792237758636475,
+    "train_time": 1.8381621837615967
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9707792207792207,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 8,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.28173232078552246,
+    "train_time": 0.9790759086608887
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5909090909090909,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 4.563043117523193,
+    "train_time": 9.54886531829834
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7940115440115441,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.0554697513580322,
+    "train_time": 4.449700117111206
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9826839826839826,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.7666387557983398,
+    "train_time": 1.900707721710205
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9718614718614719,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 13,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.40920233726501465,
+    "train_time": 1.0780928134918213
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5764790764790765,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 4.595534086227417,
+    "train_time": 9.592989206314087
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7781385281385282,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.2298412322998047,
+    "train_time": 4.526634693145752
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9808802308802309,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.951608419418335,
+    "train_time": 2.205949306488037
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9711399711399711,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 21,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.5540251731872559,
+    "train_time": 1.1743488311767578
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5631313131313131,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 4.602527856826782,
+    "train_time": 9.584167242050171
+  },
+  {
+    "augmented": false,
+    "auroc": 0.751082251082251,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.2284138202667236,
+    "train_time": 4.524539947509766
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9751082251082251,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.100447416305542,
+    "train_time": 2.2740299701690674
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9653679653679654,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 34,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.5785162448883057,
+    "train_time": 1.1974096298217773
+  },
+  {
+    "augmented": false,
+    "auroc": 0.562049062049062,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 4.613657712936401,
+    "train_time": 9.601730108261108
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7510822510822511,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 2.236797571182251,
+    "train_time": 4.5236687660217285
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9664502164502164,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 1.0986392498016357,
+    "train_time": 2.2773265838623047
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9556277056277056,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "degree": 55,
+      "kernel": "poly"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "tile",
+    "test_inference_time": 0.5779626369476318,
+    "train_time": 1.199751377105713
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5400432900432901,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.3061337471008301,
+    "train_time": 0.07080912590026855
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5223665223665224,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.5903127193450928,
+    "train_time": 0.0602421760559082
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6417748917748919,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.8775477409362793,
+    "train_time": 0.07171964645385742
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5281385281385281,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.1641333103179932,
+    "train_time": 0.08329319953918457
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6259018759018758,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.45648193359375,
+    "train_time": 0.09521198272705078
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6251803751803752,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.7408843040466309,
+    "train_time": 0.1058797836303711
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5901875901875903,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.029893636703491,
+    "train_time": 0.11827540397644043
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6295093795093795,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.316147804260254,
+    "train_time": 0.12978696823120117
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6334776334776335,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.6040432453155518,
+    "train_time": 0.14232468605041504
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7377344877344878,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.891270399093628,
+    "train_time": 0.15285325050354004
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7146464646464646,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 5.76190972328186,
+    "train_time": 0.30489420890808105
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7038239538239538,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 8.626952171325684,
+    "train_time": 0.4561941623687744
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7784992784992786,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 11.496005773544312,
+    "train_time": 0.5732078552246094
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7644300144300145,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 14.335895776748657,
+    "train_time": 0.6914770603179932
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7391774891774892,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 17.18604588508606,
+    "train_time": 0.8105549812316895
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8055555555555556,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 20.085407733917236,
+    "train_time": 0.9240448474884033
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7784992784992785,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 22.949917316436768,
+    "train_time": 1.0470566749572754
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6991341991341992,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 25.766589164733887,
+    "train_time": 1.1740822792053223
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7741702741702743,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 28.618711948394775,
+    "train_time": 1.2810781002044678
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6107503607503608,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.15239858627319336,
+    "train_time": 0.03964638710021973
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6313131313131314,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.29555726051330566,
+    "train_time": 0.031546592712402344
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6598124098124097,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.4388906955718994,
+    "train_time": 0.04030585289001465
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5851370851370852,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.5818405151367188,
+    "train_time": 0.05043315887451172
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6212121212121212,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.7272975444793701,
+    "train_time": 0.057416439056396484
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7683982683982684,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.8691742420196533,
+    "train_time": 0.0665140151977539
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6558441558441559,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.012953519821167,
+    "train_time": 0.07512235641479492
+  },
+  {
+    "augmented": false,
+    "auroc": 0.766955266955267,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.157789945602417,
+    "train_time": 0.08360433578491211
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7543290043290043,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.301922082901001,
+    "train_time": 0.09237289428710938
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7683982683982684,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.4498844146728516,
+    "train_time": 0.10059428215026855
+  },
+  {
+    "augmented": false,
+    "auroc": 0.812049062049062,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.8826112747192383,
+    "train_time": 0.1875457763671875
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7994227994227994,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 4.320842504501343,
+    "train_time": 0.27468156814575195
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8953823953823954,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 5.745860576629639,
+    "train_time": 0.3619711399078369
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9195526695526696,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 7.178788423538208,
+    "train_time": 0.4484748840332031
+  },
+  {
+    "augmented": false,
+    "auroc": 0.913059163059163,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 8.611590385437012,
+    "train_time": 0.5356745719909668
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8997113997113997,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 10.061049222946167,
+    "train_time": 0.6210880279541016
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9137806637806638,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 11.494343757629395,
+    "train_time": 0.7074904441833496
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9163059163059164,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 12.940386533737183,
+    "train_time": 0.7949740886688232
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9256854256854257,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 14.358729362487793,
+    "train_time": 0.8815584182739258
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8437950937950939,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.07828092575073242,
+    "train_time": 0.015370845794677734
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8841991341991342,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.15133261680603027,
+    "train_time": 0.021790504455566406
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9556277056277056,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.22635221481323242,
+    "train_time": 0.028845787048339844
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9181096681096681,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.29842042922973633,
+    "train_time": 0.036243438720703125
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8982683982683982,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.3704359531402588,
+    "train_time": 0.04344677925109863
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9292929292929293,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.4465949535369873,
+    "train_time": 0.050786733627319336
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9372294372294373,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.5186841487884521,
+    "train_time": 0.057903289794921875
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9343434343434343,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.5930709838867188,
+    "train_time": 0.06511402130126953
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9682539682539683,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.6661133766174316,
+    "train_time": 0.07217168807983398
+  },
+  {
+    "augmented": false,
+    "auroc": 0.974025974025974,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.7390744686126709,
+    "train_time": 0.07967948913574219
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9797979797979798,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.4730939865112305,
+    "train_time": 0.15210747718811035
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9895382395382395,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.207653045654297,
+    "train_time": 0.22345399856567383
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9895382395382395,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.9416234493255615,
+    "train_time": 0.2961292266845703
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9971139971139972,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 3.6736702919006348,
+    "train_time": 0.368511438369751
+  },
+  {
+    "augmented": false,
+    "auroc": 0.998917748917749,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 4.413970947265625,
+    "train_time": 0.44022297859191895
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9963924963924964,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 5.146621942520142,
+    "train_time": 0.5138850212097168
+  },
+  {
+    "augmented": false,
+    "auroc": 1.0,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 5.877764940261841,
+    "train_time": 0.5856385231018066
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9938672438672438,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 6.615710258483887,
+    "train_time": 0.656609296798706
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9945887445887446,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 7.349436521530151,
+    "train_time": 0.7311389446258545
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8688672438672438,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 10
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.04003739356994629,
+    "train_time": 0.011810779571533203
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9130591630591631,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 20
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.07959580421447754,
+    "train_time": 0.017819643020629883
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9805194805194806,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 30
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.11803221702575684,
+    "train_time": 0.025014162063598633
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9686147186147185,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 40
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.15579485893249512,
+    "train_time": 0.03179025650024414
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9632034632034633,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 50
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.19433283805847168,
+    "train_time": 0.03890514373779297
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9549062049062049,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 60
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.23283648490905762,
+    "train_time": 0.04620623588562012
+  },
+  {
+    "augmented": false,
+    "auroc": 0.981962481962482,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 70
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.2722625732421875,
+    "train_time": 0.05245804786682129
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9823232323232324,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 80
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.30949997901916504,
+    "train_time": 0.05975484848022461
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9826839826839827,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 90
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.34972333908081055,
+    "train_time": 0.06673359870910645
+  },
+  {
+    "augmented": false,
+    "auroc": 0.963924963924964,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 100
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.38599348068237305,
+    "train_time": 0.07314872741699219
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9812409812409812,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 200
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 0.7684154510498047,
+    "train_time": 0.14281988143920898
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9805194805194806,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 300
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.1554527282714844,
+    "train_time": 0.21349287033081055
+  },
+  {
+    "augmented": false,
+    "auroc": 0.983044733044733,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 400
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.53800368309021,
+    "train_time": 0.280947208404541
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9880952380952381,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 500
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 1.9214568138122559,
+    "train_time": 0.3511056900024414
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9898989898989898,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 600
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.3061182498931885,
+    "train_time": 0.4210379123687744
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9884559884559885,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 700
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 2.6890203952789307,
+    "train_time": 0.491253137588501
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9877344877344878,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 800
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 3.0760085582733154,
+    "train_time": 0.5612103939056396
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9823232323232323,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 900
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 3.45458722114563,
+    "train_time": 0.6286501884460449
+  },
+  {
+    "augmented": false,
+    "auroc": 0.987012987012987,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "n_estimators": 1000
+    },
+    "model_name": "sklearn.ensemble.IsolationForest",
+    "object_name": "tile",
+    "test_inference_time": 3.839322328567505,
+    "train_time": 0.6978988647460938
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6334776334776335,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 16.09327483177185,
+    "train_time": 3.2631237506866455
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8528138528138529,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 7.8907716274261475,
+    "train_time": 1.616351842880249
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9090909090909092,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 3.915087938308716,
+    "train_time": 0.7973332405090332
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9841269841269841,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6576154232025146,
+    "train_time": 0.38924169540405273
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6080145835876465,
+    "train_time": 3.263089418411255
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8093366622924805,
+    "train_time": 1.6725530624389648
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.39757800102233887,
+    "train_time": 0.7978932857513428
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.16010165214538574,
+    "train_time": 0.38992881774902344
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.608699083328247,
+    "train_time": 3.2637228965759277
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.80930495262146,
+    "train_time": 1.6727283000946045
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.39703869819641113,
+    "train_time": 0.797396183013916
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.16014504432678223,
+    "train_time": 0.3899502754211426
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5923520923520924,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 20.033854961395264,
+    "train_time": 3.263930082321167
+  },
+  {
+    "augmented": false,
+    "auroc": 0.759018759018759,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.785531044006348,
+    "train_time": 1.671748161315918
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6904761904761905,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.340259075164795,
+    "train_time": 0.7970824241638184
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9570707070707071,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.8311784267425537,
+    "train_time": 0.3890538215637207
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6082136631011963,
+    "train_time": 3.2630455493927
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8092119693756104,
+    "train_time": 1.6728465557098389
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3975331783294678,
+    "train_time": 0.7973880767822266
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.1600959300994873,
+    "train_time": 0.3898608684539795
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 25.78177523612976,
+    "train_time": 3.263882875442505
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.915825605392456,
+    "train_time": 1.6723480224609375
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.353394269943237,
+    "train_time": 0.7969462871551514
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 1.0,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.830299139022827,
+    "train_time": 0.3892343044281006
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6305916305916306,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 14.748080492019653,
+    "train_time": 3.262814998626709
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8726551226551227,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 7.64340353012085,
+    "train_time": 1.672170639038086
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9433621933621933,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 3.653536319732666,
+    "train_time": 0.7971882820129395
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9981962481962482,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.5461242198944092,
+    "train_time": 0.388946533203125
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6076900959014893,
+    "train_time": 3.2630910873413086
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8084383010864258,
+    "train_time": 1.673311471939087
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3976306915283203,
+    "train_time": 0.7971084117889404
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.15999627113342285,
+    "train_time": 0.3896970748901367
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6089909076690674,
+    "train_time": 3.2620060443878174
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.80869460105896,
+    "train_time": 1.6727030277252197
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3966031074523926,
+    "train_time": 0.7972421646118164
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.16003799438476562,
+    "train_time": 0.3897237777709961
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5768398268398268,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 19.99605369567871,
+    "train_time": 3.2621023654937744
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6919191919191919,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 9.95352029800415,
+    "train_time": 1.672029972076416
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7886002886002886,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.285366535186768,
+    "train_time": 0.7971251010894775
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8921356421356421,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.8301706314086914,
+    "train_time": 0.3888838291168213
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6065340042114258,
+    "train_time": 3.2614190578460693
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8079037666320801,
+    "train_time": 1.672269344329834
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3969740867614746,
+    "train_time": 0.7972328662872314
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.16003775596618652,
+    "train_time": 0.3898282051086426
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 25.777355194091797,
+    "train_time": 3.263998508453369
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.906576156616211,
+    "train_time": 1.671203374862671
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.353363275527954,
+    "train_time": 0.7966973781585693
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": 0.5,
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.828890800476074,
+    "train_time": 0.38876891136169434
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6298701298701299,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 15.886054277420044,
+    "train_time": 3.2618777751922607
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8145743145743146,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 7.981656312942505,
+    "train_time": 1.6720960140228271
+  },
+  {
+    "augmented": false,
+    "auroc": 0.915945165945166,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 4.035788536071777,
+    "train_time": 0.7975926399230957
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9747474747474747,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.7716214656829834,
+    "train_time": 0.3893122673034668
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6097261905670166,
+    "train_time": 3.263122081756592
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8122119903564453,
+    "train_time": 1.6786131858825684
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.40223193168640137,
+    "train_time": 0.8030059337615967
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.1609652042388916,
+    "train_time": 0.3952217102050781
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6170847415924072,
+    "train_time": 3.2685177326202393
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8085157871246338,
+    "train_time": 1.6795947551727295
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3973503112792969,
+    "train_time": 0.7980306148529053
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.1600813865661621,
+    "train_time": 0.39038825035095215
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5198412698412699,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 19.629412174224854,
+    "train_time": 3.2641608715057373
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6991341991341992,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.850152969360352,
+    "train_time": 1.672943115234375
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7402597402597403,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.348489046096802,
+    "train_time": 0.797799825668335
+  },
+  {
+    "augmented": false,
+    "auroc": 0.968975468975469,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.838378429412842,
+    "train_time": 0.39108896255493164
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6095097064971924,
+    "train_time": 3.2710459232330322
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.80910325050354,
+    "train_time": 1.6741158962249756
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.39703845977783203,
+    "train_time": 0.7976088523864746
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.16035151481628418,
+    "train_time": 0.3901247978210449
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 25.810806274414062,
+    "train_time": 3.264073133468628
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.933314800262451,
+    "train_time": 1.673358678817749
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.360914945602417,
+    "train_time": 0.7973785400390625
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "scott",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.836453676223755,
+    "train_time": 0.38958239555358887
+  },
+  {
+    "augmented": false,
+    "auroc": 0.6158008658008658,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 16.72335124015808,
+    "train_time": 3.312784433364868
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8221500721500722,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 7.706742525100708,
+    "train_time": 1.6824498176574707
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8921356421356421,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 3.929809808731079,
+    "train_time": 0.8257930278778076
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9668109668109668,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "gaussian"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.7193138599395752,
+    "train_time": 0.38970184326171875
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.610717535018921,
+    "train_time": 3.2663514614105225
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8098456859588623,
+    "train_time": 1.6754951477050781
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3976724147796631,
+    "train_time": 0.7981805801391602
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "tophat"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.1601579189300537,
+    "train_time": 0.39058399200439453
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.6108968257904053,
+    "train_time": 3.2676241397857666
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8092005252838135,
+    "train_time": 1.6743991374969482
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.397080659866333,
+    "train_time": 0.7981221675872803
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "epanechnikov"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.1601119041442871,
+    "train_time": 0.39084935188293457
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5609668109668109,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 19.61761999130249,
+    "train_time": 3.265780448913574
+  },
+  {
+    "augmented": false,
+    "auroc": 0.7196969696969697,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.85496473312378,
+    "train_time": 1.6745998859405518
+  },
+  {
+    "augmented": false,
+    "auroc": 0.8261183261183261,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.3456292152404785,
+    "train_time": 0.79789137840271
+  },
+  {
+    "augmented": false,
+    "auroc": 0.9516594516594516,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "exponential"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.8329319953918457,
+    "train_time": 0.38974595069885254
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 1.610400915145874,
+    "train_time": 3.2741470336914062
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.8126413822174072,
+    "train_time": 1.6762702465057373
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.3980722427368164,
+    "train_time": 0.7986857891082764
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 0.16065692901611328,
+    "train_time": 0.39327502250671387
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      802816
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 25.80782675743103,
+    "train_time": 3.2716548442840576
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      401408
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 12.942468404769897,
+    "train_time": 1.6734967231750488
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      200704
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 6.4107019901275635,
+    "train_time": 0.8172898292541504
+  },
+  {
+    "augmented": false,
+    "auroc": 0.5,
+    "feature_extraction_initialization": "imagenet1k_v2",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      230,
+      100352
+    ],
+    "hyperparameter": {
+      "bandwidth": "silverman",
+      "kernel": "cosine"
+    },
+    "model_name": "sklearn.neighbors.KernelDensity",
+    "object_name": "tile",
+    "test_inference_time": 2.8357603549957275,
+    "train_time": 0.3921365737915039
+  }
+]

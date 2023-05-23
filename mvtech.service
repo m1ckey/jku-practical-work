@@ -1,0 +1,11 @@
+[Unit]
+Description=mvtech
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/home/m1ckey/pro/mvtec-ad/start.sh
+
+[Install]
+WantedBy=multi-user.target

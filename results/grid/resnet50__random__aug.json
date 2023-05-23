@@ -1,0 +1,74 @@
+[
+  {
+    "augmented": true,
+    "auroc": 0.3450292397660819,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer1",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1584,
+      802816
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "grid",
+    "test_inference_time": 10.22356653213501,
+    "train_time": 319.7813172340393
+  },
+  {
+    "augmented": true,
+    "auroc": 0.32497911445279865,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer2",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1584,
+      401408
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "grid",
+    "test_inference_time": 4.798664808273315,
+    "train_time": 149.50182509422302
+  },
+  {
+    "augmented": true,
+    "auroc": 0.33751044277360065,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer3",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1584,
+      200704
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "grid",
+    "test_inference_time": 2.452026605606079,
+    "train_time": 75.57454228401184
+  },
+  {
+    "augmented": true,
+    "auroc": 0.3366750208855472,
+    "feature_extraction_initialization": "random",
+    "feature_extraction_layer": "layer4",
+    "feature_extraction_model_name": "resnet50",
+    "feature_extraction_shape": [
+      1584,
+      100352
+    ],
+    "hyperparameter": {
+      "kernel": "linear"
+    },
+    "model_name": "sklearn.svm.OneClassSVM",
+    "object_name": "grid",
+    "test_inference_time": 1.3076081275939941,
+    "train_time": 40.11787486076355
+  }
+]
