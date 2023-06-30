@@ -1,0 +1,16 @@
+object_name,feature_extraction_model_name,feature_extraction_initialization,augmented,feature_extraction_layer,feature_extraction_shape,model_name,hyperparameter,auroc,train_time,test_inference_time
+bottle,resnet18,imagenet1k_v1,True,layer4,"[1254, 25088]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 4},1.0,0.6186637878417969,0.21760940551757812
+cable,resnet18,imagenet1k_v1,True,layer3,"[1344, 50176]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 4},0.9422788605697152,1.4419910907745361,0.4350872039794922
+capsule,resnet18,imagenet1k_v1,True,layer3,"[1314, 50176]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 12},0.9174311926605504,1.335235834121704,0.41758275032043457
+carpet,resnet18,imagenet1k_v1,True,layer3,"[1680, 50176]",sklearn.ensemble.IsolationForest,{'n_estimators': 600},0.945024077046549,0.3970363140106201,1.070953130722046
+grid,vit_base_16,random,True,layer2,"[1584, 151296]",sklearn.svm.OneClassSVM,"{'degree': 5, 'kernel': 'poly'}",0.9615705931495405,72.93914437294006,3.37597393989563
+hazelnut,resnet50,imagenet1k_v2,True,layer3,"[2346, 200704]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 6},0.9925,15.418441772460938,2.273585081100464
+leather,resnet50,imagenet1k_v2,True,layer4,"[1470, 100352]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 20},0.9921875,3.2940685749053955,0.9947731494903564
+metal_nut,resnet50,imagenet1k_v2,False,layer3,"[220, 200704]",sklearn.svm.OneClassSVM,"{'degree': 8, 'kernel': 'poly'}",0.935483870967742,1.829005241394043,0.7732775211334229
+pill,resnet50,imagenet1k_v2,False,layer2,"[267, 401408]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 2},0.944899072558647,3.6040520668029785,3.2139053344726562
+screw,vit_base_32,random,False,layer0,"[320, 38400]",sklearn.svm.OneClassSVM,{'kernel': 'rbf'},1.0,0.44098806381225586,0.614800214767456
+tile,resnet50,imagenet1k_v2,False,layer3,"[230, 200704]",sklearn.ensemble.IsolationForest,{'n_estimators': 800},1.0,0.5856385231018066,5.877764940261841
+toothbrush,resnet50,random,True,layer2,"[360, 401408]",sklearn.covariance.EllipticEnvelope,"{'dim_reduction': 'pca', 'dim_reduction_components': 32}",0.9944444444444445,0.12379264831542969,0.00022792816162109375
+transistor,resnet50,imagenet1k_v2,False,layer3,"[213, 200704]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 4},0.9470833333333334,1.5779073238372803,1.4494695663452148
+wood,resnet50,imagenet1k_v2,True,layer4,"[1482, 100352]",sklearn.svm.OneClassSVM,{'kernel': 'rbf'},0.9982456140350877,54.23502278327942,3.4607462882995605
+zipper,resnet18,imagenet1k_v1,False,layer3,"[240, 50176]",sklearn.neighbors.LocalOutlierFactor,{'n_neighbors': 8},0.9753151260504203,0.3739891052246094,0.39452290534973145
